@@ -17,9 +17,9 @@ tmux new -s petals
 This will launch the bootstrap node, worker nodes, and the health monitoring app.
 
 * You can then generate text with your distributed LLM with the following steps:
-1. Find your bootstrap node ID inside `health.petals.dev/config.py`
-2. Edit `run_chatbot.py` to make it point to it
-3. Run `python run_chatbot.py`
+  1. Find your bootstrap node ID inside `health.petals.dev/config.py`
+  2. Edit `run_chatbot.py` to make it point to it
+  3. Run `python run_chatbot.py`
 
 ## Script Workflow Overview
 ### 1. Bootstrap Node
